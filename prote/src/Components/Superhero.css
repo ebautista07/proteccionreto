@@ -63,6 +63,7 @@ h1 {
   color: #000;
   border-radius: 10px;
   text-align: center;
+  align-content: center;
 }
 
 .card-back h1 {
