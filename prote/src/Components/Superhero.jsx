@@ -39,8 +39,8 @@ function Superheroe() {
             {/* <h1>{superhero.name}</h1> */}
           </div>
           <div className="card-back">
-            <h1>DATA</h1>
-            <p>Name: {superhero.name}</p>
+            <h1>{superhero.name}</h1>
+            
             <p>Gender: {superhero.appearance.gender}</p>
             <p>Race: {superhero.appearance.race}</p>
             <p>Durability: {superhero.powerstats.durability}</p>
