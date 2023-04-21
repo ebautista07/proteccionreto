@@ -35,12 +35,14 @@ function Superheroe() {
           onClick={() => flipCard(index)}
         >
           <div className="card-front">
-            <img src={superhero.image?.url} alt={superhero.name} />
-            <h1>{superhero.name}</h1>
+            <img src={superhero.image?.url} />
+            {/* <h1>{superhero.name}</h1> */}
           </div>
           <div className="card-back">
-            <h1>Powerstats</h1>
-            <p>Combat: {superhero.powerstats.combat}</p>
+            <h1>Info</h1>
+            <p>Name: {superhero.name}</p>
+            <p>Gender: {superhero.appearance.gender}</p>
+            <p>Race: {superhero.appearance.race}</p>
             <p>Durability: {superhero.powerstats.durability}</p>
             <p>Intelligence: {superhero.powerstats.intelligence}</p>
             <p>Power: {superhero.powerstats.power}</p>
